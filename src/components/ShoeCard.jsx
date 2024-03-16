@@ -6,7 +6,6 @@ const ShoeCard = ({ imageURL, changeBigShoeImage, bigShoeImage }) => {
         }
     }
 
-    // console.log("in shoe card component", imageURL);
     return (
         <div className={`border-2 rounded-xl s
                 ${imageURL.bigShoe === bigShoeImage ?

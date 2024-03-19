@@ -55,4 +55,8 @@
   .info-text {
     @apply font-montserrat text-slate-gray text-lg leading-7;
   }
+
+  .any-btn {
+    @apply flex justify-center items-center gap-2 px-7 py-4 border font-montserrat leading-none bg-coral-red text-white border-coral-red rounded-full;
+  }
 }
